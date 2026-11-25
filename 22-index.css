@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --color-deep: #0c1512;
+  --color-panel: #122019;
+  --color-line: #22372c;
+  --color-mint: #d9efe2;
+  --color-mintdim: #7d9b8a;
+  --color-glow: #6fd598;
+}
+
+html, body, #root { min-height: 100%; }
+body { font-family: var(--font-body); background: var(--color-deep); color: var(--color-mint); }
+.font-display { font-family: var(--font-display); }
